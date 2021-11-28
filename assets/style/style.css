@@ -1,0 +1,111 @@
+div,
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 1126px;
+  margin: auto;
+}
+.hero {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin-top: 128px;
+}
+.hero__items {
+  width: 50%;
+  float: left;
+}
+.hero .hero__items h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  line-height: 54px;
+  color: #2f281e;
+  margin-top: 83px;
+  margin-bottom: 30px;
+}
+.hero .hero__items p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #544837;
+}
+.hero .hero__items img {
+  width: 100%;
+  display: inline-block;
+}
+.tools {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 103px;
+}
+.tools .tools__items {
+  width: 100%;
+  display: inline-block;
+  margin-top: 54px;
+}
+.tools .tools__item {
+  width: 25%;
+  float: left;
+}
+.tools .tools__heading h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #2f281e;
+  margin-top: 110px;
+}
+.tools .tools__item h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #2f281e;
+  margin-top: 30px;
+}
+.tools .tools__item p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+  margin-top: 13px;
+}
+.tools .btn .tools__btn button {
+  margin-top: 34px;
+  margin-bottom: 90px;
+  padding: 15px 34px;
+  background-color: #ff9900;
+  border: 1px solid #ff9900;
+  border-radius: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.tools .btn {
+  text-align: center;
+}
